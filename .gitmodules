@@ -1,0 +1,3 @@
+[submodule "custom_nodes/comfyuiPlugin"]
+	path = custom_nodes/comfyuiPlugin
+	url = https://gitlab.com/penombrecompanyltd/comfyuiplugin.git
