@@ -1,3 +1,8 @@
+Create virtual env : 
+conda create -y --name comfyuiEnv python==3.11.9
+pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu121
+pip install -r requirements.txt
+
 git clone in custonnodes https://github.com/ltdrdata/ComfyUI-Manager
 in the manager custom nodes : 	
 - install Fannovel16	 ComfyUI's ControlNet Auxiliary Preprocessors
